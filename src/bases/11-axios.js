@@ -2,14 +2,12 @@ const { default: axios } = require("axios");
 
 const apiKey = "2CzIbQgseI6IsYomuusVZ9djox67FZPZ";
 
-const giphyApi = axios.create({
+export const giphyApi = axios.create({
     baseURL: `http://api.giphy.com/v1/gifs`,
     params: {
         api_key: apiKey,
     },
 });
-
-export default giphyApi;
 
 giphyApi.get("/random").then((resp) => {
     const { data } = resp.data;
