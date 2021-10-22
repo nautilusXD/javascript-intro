@@ -1,4 +1,5 @@
-const characters = ['Goku', 'Vegeta', 'Trunks'
-                    //Info de prueba
+import { owners } from "./data/heroes"
+import superHeroes from "./data/heroes"
 
-console.log('Hola')
+console.log(owners)
+console.log(superHeroes)
