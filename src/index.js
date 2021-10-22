@@ -1,12 +1,5 @@
+const characters = ['Goku', 'Vegeta', 'Trunks']
 
 
 
-
-
-
-console.log('Hola Mundo!!')
-
-
-
-
-
+console.log('Hola')
