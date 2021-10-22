@@ -2,4 +2,4 @@ import superHeroes from "../data/heroes.js"
 
 export const getHeroById = (id) => superHeroes.find(hero => hero.id === id)
 
-export const geroHeroByOwner = (owner) => superHeroes.filter(hero => hero.owner === owner)
+export const getHeroByOwner = (owner) => superHeroes.filter(hero => hero.owner === owner)
